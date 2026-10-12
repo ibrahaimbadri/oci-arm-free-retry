@@ -1,0 +1,33 @@
+# Environment variables & secrets
+.env
+*.pem
+*.key
+*.pub
+private/
+*.local.py
+
+# OCI CLI config copies
+.oci/
+config
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
