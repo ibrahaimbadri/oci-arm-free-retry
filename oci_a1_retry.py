@@ -88,7 +88,7 @@ BOOT_VOLUME_GB = int(os.getenv("OCI_BOOT_VOLUME_GB", "100"))  # 100 (half of 200
 DISPLAY_NAME   = os.getenv("OCI_DISPLAY_NAME", "free-a1-flex-instance")
 
 # Retry delay in seconds between provisioning attempts
-RETRY_INTERVAL_SECONDS = int(os.getenv("OCI_RETRY_INTERVAL", "30"))
+RETRY_INTERVAL_SECONDS = int(os.getenv("OCI_RETRY_INTERVAL", "10"))
 
 # Availability Domains:
 # Leave empty [] to automatically discover and rotate through all ADs in your region.

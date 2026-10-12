@@ -149,7 +149,7 @@ OCI_OCPUS=1.0
 OCI_MEMORY_IN_GBS=6.0
 OCI_BOOT_VOLUME_GB=100
 OCI_DISPLAY_NAME=free-a1-flex-instance
-OCI_RETRY_INTERVAL=30
+OCI_RETRY_INTERVAL=10
 ```
 
 #### Option B: Editing `oci_a1_retry.py` directly
